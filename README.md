@@ -1,0 +1,30 @@
+# PixelSqueeze – Image Compressor & Resizer (React + Tailwind)
+
+Client-side image compressor/resizer: drag & drop, paste (Ctrl+V), batch, ZIP download, JPG/PNG/WebP, resize by px/%, target file size.
+
+## Run
+```
+npm install
+npm run dev      # development
+npm run build    # production build → dist/ (also generates icons, per-page HTML, sitemap, robots)
+npm run preview
+```
+Deploy `dist/` to any static host (Netlify, Vercel, Cloudflare Pages, GitHub Pages, S3…). Each page has its own HTML file, so no rewrite rules are required.
+
+## Before going live: edit `src/site.config.js`
+1. `url` – your real domain (used for canonicals, sitemap, robots.txt, social cards).
+2. `email` – a working mailbox on your domain (shown on Contact / Privacy / Terms).
+3. `name`, `owner` – your brand. Replace `public/favicon.svg` to change the icon, then `npm run build` regenerates every size + favicon.ico.
+4. `searchConsoleToken` – Search Console → "HTML tag" method → paste the `content` value.
+5. `adsense.client` (`ca-pub-…`) – once set, the build injects the AdSense script, the `google-adsense-account` meta tag, and writes `ads.txt`. `adsense.slots` are optional ad-unit IDs; leave empty to use Auto ads.
+
+## Google Search Console
+Add the property, verify with the token above, then submit `https://yourdomain/sitemap.xml`.
+
+## Google AdSense checklist
+- Own domain (not a free subdomain), HTTPS, live and publicly reachable.
+- Privacy Policy, Terms, About, Contact pages are included and linked in the footer.
+- Original written content: 4 guides + FAQ + how-to text. Add more guides over time (`src/content/guides.js`); AdSense approval favours sites with steady original content.
+- Turn on Google's **Privacy & messaging (consent)** in the AdSense dashboard for EEA/UK/Swiss visitors. It is a Google-certified CMP and works with the injected snippet.
+- No ads render unless configured; ads are labelled and kept away from buttons.
+- Never click your own ads or ask others to.
