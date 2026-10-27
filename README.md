@@ -23,5 +23,4 @@ Add the property, verify with the token above, then submit `https://yourdomain/s
 ## Google AdSense checklist
 
 
-- No ads render unless configured; ads are labelled and kept away from buttons.
 - Never click your own ads or ask others to.
