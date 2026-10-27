@@ -21,7 +21,6 @@ Deploy `dist/` to any static host (Netlify, Vercel, Cloudflare Pages, GitHub Pag
 Add the property, verify with the token above, then submit `https://yourdomain/sitemap.xml`.
 
 ## Google AdSense checklist
-- Privacy Policy, Terms, About, Contact pages are included and linked in the footer.
 - Original written content: 4 guides + FAQ + how-to text. Add more guides over time (`src/content/guides.js`); AdSense approval favours sites with steady original content.
 - Turn on Google's **Privacy & messaging (consent)** in the AdSense dashboard for EEA/UK/Swiss visitors. It is a Google-certified CMP and works with the injected snippet.
 - No ads render unless configured; ads are labelled and kept away from buttons.
