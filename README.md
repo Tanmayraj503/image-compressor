@@ -23,4 +23,3 @@ Add the property, verify with the token above, then submit `https://yourdomain/s
 ## Google AdSense checklist
 
 
-- Never click your own ads or ask others to.
