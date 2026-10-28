@@ -1,4 +1,4 @@
-# PixelSqueeze - Image Compressor & Resizer (React + Tailwind)
+# PixelSqueeze - Image Compressor & Resizer
 
 Client-side image compressor/resizer: drag & drop, paste (Ctrl+V), batch, ZIP download, JPG/PNG/WebP, resize by px/%, target file size.
 
